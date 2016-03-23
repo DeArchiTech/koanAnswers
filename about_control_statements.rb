@@ -12,7 +12,7 @@ class AboutControlStatements < Neo::Koan
   end
 
   def test_if_then_statements
-    result = :default_value
+    result = :default_values
     if true
       result = :true_value
     end
